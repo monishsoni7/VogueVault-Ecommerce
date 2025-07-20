@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .hover\:float:hover {
+    animation: float 3s ease-in-out infinite;
+  }
+
+@media (max-width: 640px) {
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
