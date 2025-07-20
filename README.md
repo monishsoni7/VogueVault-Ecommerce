@@ -47,17 +47,20 @@ Visit the live site:
 ---
 
 ⚙️ Getting Started
+
 Follow these steps to run the project locally on your machine:
 cd backend
 npm install
 cd frontend
 npm install
 🛠️ Configure Environment Variables
+
 backend env
 MONGODB_URI=mongodb+srv://monishsoni7:MonishSoni7@cluster0.deggk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=VogueVaultSecretKey123!@#
 frontend env
 VITE_BACKEND_URL=http://localhost:4000
+
 ▶️ Start the Development Servers
 cd backend
 npm start
