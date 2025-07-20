@@ -49,10 +49,12 @@ Visit the live site:
 ⚙️ Getting Started
 
 Follow these steps to run the project locally on your machine:
+
 cd backend
 npm install
 cd frontend
 npm install
+
 🛠️ Configure Environment Variables
 
 backend env
@@ -62,6 +64,7 @@ frontend env
 VITE_BACKEND_URL=http://localhost:4000
 
 ▶️ Start the Development Servers
+
 cd backend
 npm start
 cd frontend
@@ -69,4 +72,4 @@ npmr run dev
 local browser 
 http://localhost:5173
 
-local
+
